@@ -17,29 +17,43 @@
         <div>
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
-                    <div class="navbar-header">
+                    <div class="navbar-header" style="width:100%">
                         <a class="navbar-brand" href="#">
                             <asp:Image ID="Image1" runat="server" Height="25px" Width="50px" ImageUrl="/img/logo.jpg"/></a>
                     </div>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">¿Quiénes somos?</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Armazones
+                    <div class="navbar-header">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Todos los departamentos
                     <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="Biselado.aspx">Biselado</a></li>
-                                <li><a href="MedioAlAire.aspx">Medio al aire</a></li>
-                                <li><a href="#">Al aire</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Tratamiento</a></li>
-                        <li><a href="#">Citas</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </div>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Libros</a></li>
+                                    <li><a href="#">Películas</a></li>
+                                    <li><a href="#">Kindle</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Prime
+                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Disfruta envíos gratis</a></li>
+                                    <li><a href="#">Envíos ilimitados</a></li>
+                                    <li><a href="#">Envíos sin mínimo de compra</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Video
+                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Ve ahora a Prime Video</a></li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
             </nav>
-        </div>
+         </div>
         <div class="jumbotron">
             <h1>Página principal</h1>
         </div>
